@@ -35,7 +35,7 @@ while read line; do
         mkdir -p $PATH_
     fi
 
-    echo $VAL >> $PATH_/$FILENAME
+    echo "$VAL" > $PATH_/$FILENAME
 done;
 
 popd
